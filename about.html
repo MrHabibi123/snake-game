@@ -1,0 +1,93 @@
+  
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0">  
+    <title>About Snake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c3c4291df8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/snake.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+            </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Snake</h1>
+
+        </section>
+
+
+<!--------------------------about content------------------------------------>
+
+<section class="about-us">
+
+<div class="row">
+    <div class="about-col">
+        <h1>the most simple fun <br> game</h1>
+        <a href="html.html" class="hero-btn red-btn">PLAY NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="eduford_img/snakeback.png">
+    </div>
+    
+</div>
+
+
+</section>
+
+
+
+<!--------------------------footer------------------------------------>
+<section class="footer">
+    <h4>About Us</h4>
+  
+    <div class="icons">
+       <a href="https://www.linkedin.com/in/ziad-abdo-512a971b2/"><i class="fab fa-linkedin"></i></a>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+       
+        <p>Made<i class="fas fa-heart"></i> By Ziad Abdo</p>
+
+    </div>
+    </div>
+
+            </section>
+
+            
+            <!--------------------------java code------------------------------------>
+
+
+            <script>
+                var navLinks = document.getElementById("navLinks")
+                
+                function showMenu(){
+                    navLinks.style.right="0";
+                }
+                function hideMenu(){
+                    navLinks.style.right="-200px";
+                }
+                
+                
+                </script>
+                
+
+
+
+
+
+
+
+            
+</body>
+</html>
